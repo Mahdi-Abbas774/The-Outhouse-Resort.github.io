@@ -1,0 +1,86 @@
+```/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Roboto', sans-serif;
+    background: linear-gradient(to bottom, #fdfdfd, #f2f2f2);
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* Hero section */
+  .hero {
+    text-align: center;
+    padding: 3rem 1rem;
+    background: linear-gradient(135deg, #2c3e50, #34495e);
+    color: white;
+    background-attachment: fixed;
+  }
+  
+  .hero h1 {
+    font-family: 'Playfair Display', serif;
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+  }
+  
+  .tagline {
+    font-size: 1.2rem;
+    opacity: 0.9;
+  }
+  
+  /* Profile section */
+  .profile {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  .image-container {
+    flex: 1 1 300px;
+    text-align: center;
+  }
+  
+  .image-container img {
+    max-width: 300px;
+    max-height: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    object-fit: cover;
+  }
+  
+  /* Contact info */
+  .info {
+    flex: 1 1 300px;
+  }
+  
+  .info h2 {
+    font-family: 'Playfair Display', serif;
+    margin-bottom: 1rem;
+    font-size: 1.5rem;
+  }
+  
+  .info ul {
+    list-style: none;
+  }
+  
+  .info li {
+    margin-bottom: 0.8rem;
+    font-size: 1.1rem;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+    background: #222;
+    color: #fff;
+  }
+  ```
